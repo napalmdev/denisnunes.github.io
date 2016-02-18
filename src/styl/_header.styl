@@ -1,0 +1,29 @@
+@import '_menu'
+
+$txt-shadow
+  text-shadow 1px 1px 2px #000
+
+nav.site-nav
+  padding 20px
+  padding-left 50px
+  text-align center
+  background-color $color-dark-blue
+
+  a.logo img
+    position absolute
+    top 10px
+    left 10px
+    width 50px
+
+
+  h2.menu-desc
+    display inline-block
+    font-family $font-menu
+    color $color-white
+    line-height auto
+    @extend $txt-shadow
+
+  h3.menu-subdesc
+    font-family $font-menu
+    color $color-deep-yellow
+    @extend $txt-shadow
